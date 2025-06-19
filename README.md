@@ -29,10 +29,7 @@ API desenvolvida em Java Spring Boot para gerenciar processos judiciais e suas r
    ```bash
    mvn spring-boot:run
    ```
-
-4. **Acesse a documentação Swagger:**
-   - [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
-
+   
 ## Endpoints principais
 
 ### Autenticação
@@ -48,7 +45,7 @@ API desenvolvida em Java Spring Boot para gerenciar processos judiciais e suas r
   {
     "login": "usuario",
     "password": "senha",
-    "role": "USER"
+    "role": "USER" ou "ADMIN"
   }
   ```
 
